@@ -14,5 +14,6 @@
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
         <source-file src="src/android/CustomVenmoPlugin.java" target-dir="src/cordova/plugins/CustomVenmoPlugin" />
+        <framework src="com.braintreepayments.api:venmo:4.20.0" />
     </platform>
 </plugin>
