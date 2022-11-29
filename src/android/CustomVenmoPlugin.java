@@ -1,4 +1,4 @@
-package cordova-plugin-custom-venmo;
+package cordova.plugins;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;

@@ -9,10 +9,10 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="CustomVenmoPlugin">
-                <param name="android-package" value="cordova-plugin-custom-venmo.CustomVenmoPlugin" />
+                <param name="android-package" value="cordova.plugins.CustomVenmoPlugin" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-        <source-file src="src/android/CustomVenmoPlugin.java" target-dir="src/cordova-plugin-custom-venmo/CustomVenmoPlugin" />
+        <source-file src="src/android/CustomVenmoPlugin.java" target-dir="src/cordova/plugins/CustomVenmoPlugin" />
     </platform>
 </plugin>
