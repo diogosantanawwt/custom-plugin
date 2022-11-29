@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-custom-venmo",
+  "version": "0.0.1",
+  "description": "CustomPlugin for Venmo Payment native integration",
+  "cordova": {
+    "id": "cordova-plugin-custom-venmo",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": ""
+}
